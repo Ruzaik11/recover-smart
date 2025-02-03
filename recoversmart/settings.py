@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -73,13 +74,29 @@ WSGI_APPLICATION = 'recoversmart.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+os.environ['TNS_ADMIN'] = 'D:\\Fanshawe\\capstone\\api-test\\wallets'
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'smartrecover_high',  # TNS alias from tnsnames.ora
+        'USER': 'Admin',  # Leave empty when using wallet
+        'PASSWORD': 'DNiDbZ5H9ze!bNE',  # Leave empty when using wallet
+        'HOST': '',  # Leave empty when using wallet
+        'PORT': '',  # Leave empty when using wallet
+        'OPTIONS': {
+            'wallet_location': 'D:\\Fanshawe\\capstone\\recover_smart\\wallets',  # Path to your wallet directory
+            'wallet_password': 'bzBviakf!C2_bB@',  # Optional, if your wallet is password-protected
+        },
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
