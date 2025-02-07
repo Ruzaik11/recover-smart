@@ -1,3 +1,4 @@
 cx_Oracle
 oracledb
-djangorestframework djangorestframework-simplejwt
+djangorestframework 
+djangorestframework-simplejwt
