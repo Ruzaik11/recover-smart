@@ -1,2 +1,3 @@
 pip install cx_Oracle djangoq
-pip install oracledb    
+pip install oracledb
+pip install djangorestframework djangorestframework-simplejwt
