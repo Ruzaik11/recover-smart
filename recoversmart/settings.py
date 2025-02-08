@@ -44,7 +44,17 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'authentication'
+    #custom apps
+    'authentication',
+    'patients',
+    'doctors',
+    'medical_records',
+    'checklists',
+    'checklist_items',
+    'checklist_types',
+    'entities',
+    'attachments',
+    'patient_messages',
 ]
 
 MIDDLEWARE = [
