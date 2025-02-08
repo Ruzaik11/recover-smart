@@ -6,7 +6,7 @@ import django
 
 urlpatterns = [
     path('', lambda request: HttpResponse('Django: '+django.get_version())),
-    path('api/auth/user/', Authentication.getUser),
+    path('api/auth/user/', Authentication.as_view()),
     path('api/auth/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),    
 ]

@@ -1,2 +1,5 @@
 ./venv
 ./wallets
+__pycache__/
+*.pyc
+*.pyo
