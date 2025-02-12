@@ -6,5 +6,8 @@ class Doctor(models.Model):
     specialization = models.CharField(max_length=250)
     email = models.CharField(max_length=250)
 
+    class Meta:
+        db_table = "doctor"
+
     def __str__(self):
         return f"Dr. {self.first_name} {self.last_name}"

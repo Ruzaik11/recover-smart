@@ -5,3 +5,6 @@ class ChecklistType(models.Model):
 
     def __str__(self):
         return self.type_desc
+    
+    class Meta:
+        db_table = "checklist_type"

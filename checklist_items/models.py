@@ -11,5 +11,8 @@ class ChecklistItem(models.Model):
     task_status = models.IntegerField()
     complete_date = models.DateField(blank=True, null=True)
 
+    class Meta:
+        db_table = "checklist_item"
+
     def __str__(self):
         return f"{self.title} - {self.checklist}"

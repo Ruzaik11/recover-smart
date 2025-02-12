@@ -8,6 +8,8 @@ class Patient(models.Model):
     last_name = models.CharField(max_length=250)
     email = models.CharField(max_length=250)
     mobile = models.CharField(max_length=250)
+    class Meta:
+        db_table = "patient"
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"

@@ -8,5 +8,8 @@ class Checklist(models.Model):
     created_by = models.ForeignKey(User, on_delete=models.CASCADE)
     status = models.IntegerField()
 
+    class Meta:
+        db_table = "checklist"
+
     def __str__(self):
         return f"Checklist for Record {self.record.id}"
