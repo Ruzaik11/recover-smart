@@ -5,4 +5,6 @@ import django
 
 urlpatterns = [
     path('api/patients/', Patients.as_view()),
+    path('api/patients/edit/<int:pk>/', Patients.edit),
+    path('api/patients/<int:pk>/', Patients.as_view()),
 ]
