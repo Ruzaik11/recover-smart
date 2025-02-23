@@ -3,7 +3,7 @@ from checklists.models import Checklist
 from checklist_types.models import ChecklistType
 
 class ChecklistItem(models.Model):
-    checklist = models.ForeignKey(Checklist, on_delete=models.CASCADE)
+    checklist = models.ForeignKey(Checklist, on_delete=models.CASCADE, related_name='checklistItems')
     type = models.ForeignKey(ChecklistType, on_delete=models.CASCADE)
     title = models.CharField(max_length=250)
     description = models.CharField(max_length=250)
@@ -15,4 +15,4 @@ class ChecklistItem(models.Model):
         db_table = "checklist_item"
 
     def __str__(self):
-        return f"{self.title} - {self.checklist}"
+        return f"{self.title}"

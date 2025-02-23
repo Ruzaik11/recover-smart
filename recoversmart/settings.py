@@ -30,6 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
@@ -38,6 +39,8 @@ SECRET_KEY = 'django-insecure-^r3gp)k+1em^ptkue(f*e=85twvf+q2qzkesd3#enw=ucnoq@p
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+APPEND_SLASH = True
 
 ALLOWED_HOSTS = ['13.53.193.172','127.0.0.1']
 

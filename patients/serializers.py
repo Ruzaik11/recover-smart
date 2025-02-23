@@ -7,3 +7,9 @@ class PatientSerializer(serializers.ModelSerializer):
     class Meta:
         model = Patient
         fields = ['id', 'first_name', 'middle_name', 'last_name', 'email', 'mobile', 'user', 'medical_records']
+
+    def __init__(self, instance=None, **kwargs):
+        include_items = kwargs.pop('context', {}).get('include_items', True)
+        super().__init__(instance, **kwargs)
+        if not include_items:
+            self.fields.pop('medical_records')

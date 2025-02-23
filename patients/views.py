@@ -28,7 +28,7 @@ class Patients(APIView):
         patients = Patient.objects.filter(
             Q(first_name__icontains=search) | Q(last_name__icontains=search)  # Fixed typo here
         )
-        serializer = PatientSerializer(patients, many=True)
+        serializer = PatientSerializer(patients, many=True, context={'include_items': False})
         return Response(serializer.data)
     
     @api_view(['GET'])
@@ -45,15 +45,10 @@ class Patients(APIView):
 
         # Serialize the patient and their medical records
         patient_data = PatientSerializer(patient).data
-        medical_records_data = MedicalRecordSerializer(patient.medical_records.all(), many=True).data
 
         # Combine the data into a single response
-        response_data = {
-            "patient": patient_data,
-            "medical_records": medical_records_data,
-        }
-
-        return Response(response_data, status=status.HTTP_200_OK)
+       
+        return Response(patient_data, status=status.HTTP_200_OK)
     
     def post(self, request):
 
@@ -61,6 +56,7 @@ class Patients(APIView):
             return Response({"error": "You do not have permission to add a patient record"}, status=403)
 
         serializer = PatientSerializer(data=request.data)
+
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=201)
