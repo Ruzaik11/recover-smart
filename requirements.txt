@@ -4,3 +4,4 @@ oracledb
 djangorestframework 
 djangorestframework-simplejwt
 dotenv
+MySQLdb
