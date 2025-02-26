@@ -3,3 +3,4 @@ cx_Oracle
 oracledb
 djangorestframework 
 djangorestframework-simplejwt
+dotenv
