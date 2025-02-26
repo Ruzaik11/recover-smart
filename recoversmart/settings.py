@@ -42,7 +42,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ['13.53.193.172','127.0.0.1']
+ALLOWED_HOSTS = ['13.53.193.172','127.0.0.1','129.154.238.133']
 
 
 # Application definition
@@ -66,6 +66,7 @@ INSTALLED_APPS = [
     'entities',
     'attachments',
     'patient_messages',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -83,7 +84,7 @@ ROOT_URLCONF = 'recoversmart.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -110,6 +111,18 @@ DATABASES = {
 }
 
 os.environ['TNS_ADMIN'] = 'D:\\Fanshawe\\capstone\\api-test\\wallets'
+
+#email settings
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+
+# Looking to send emails in production? Check out our Email API/SMTP product!
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = '3fcaa9f1b77701'
+EMAIL_HOST_PASSWORD = 'c5639b6d22bc28'
+EMAIL_PORT = '2525'
+EMAIL_FROM = 'test@localhost.com'
+
 
 
 
@@ -177,6 +190,47 @@ REST_FRAMEWORK = {
         'rest_framework.renderers.JSONRenderer',  # Ensures JSON responses
     ),
 }
+
+
+log_directory = os.path.join(BASE_DIR, 'logs')
+if not os.path.exists(log_directory):
+    os.makedirs(log_directory)
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        # Handler for system logs (Django logs)
+        'system_file': {
+            'level': 'INFO',  # Set the appropriate level for system logs
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs', 'system.log'),
+        },
+        # Handler for custom application logs
+        'app_file': {
+            'level': 'DEBUG',  # Set the appropriate level for your custom logs
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs', 'app.log'),
+        },
+    },
+    'loggers': {
+        # Logger for system logs (Django logs)
+        'django': {
+            'handlers': ['system_file'],
+            'level': 'INFO',  # Only log INFO or higher for system logs
+            'propagate': True,
+        },
+        # Logger for your custom application logs
+        'myapp': {
+            'handlers': ['app_file'],
+            'level': 'DEBUG',  # Log everything for your custom logs
+            'propagate': False,  # Don't propagate this logger to the 'django' logger
+        },
+    },
+}
+
+
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
