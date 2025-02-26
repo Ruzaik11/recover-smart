@@ -5,3 +5,4 @@ djangorestframework
 djangorestframework-simplejwt
 dotenv
 mysqlclient
+pymysql
