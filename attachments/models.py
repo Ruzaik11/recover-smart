@@ -9,3 +9,5 @@ class Attachment(models.Model):
 
     def __str__(self):
         return f"Attachment {self.id} for {self.entity}"
+    class Meta:
+        db_table = "attachments"
