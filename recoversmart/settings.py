@@ -144,9 +144,9 @@ EMAIL_FROM = 'test@localhost.com'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'recover_smart',
-        'USER': 'root',
-        'PASSWORD': '',
+        'NAME': os.getenv('DB_NAME'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD':os.getenv('DB_PASSWORD'),
         'HOST': 'localhost',  # Or your MySQL server IP if remote
         'PORT': '3306',  # Default MySQL port
     }
