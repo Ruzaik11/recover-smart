@@ -71,12 +71,6 @@ INSTALLED_APPS = [
     'corsheaders'
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Your Next.js dev server
-    "http://127.0.0.1:3000",  # Sometimes needed
-    "https://your-production-domain.com",  # Add production URL later
-]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
