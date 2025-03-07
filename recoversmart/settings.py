@@ -42,44 +42,6 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ['13.53.193.172','127.0.0.1','129.154.238.133']
-
-CORS_ALLOW_ALL_ORIGINS = True
-
-# Explicitly list allowed origins
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-]
-
-# Allow credentials to be included in CORS requests
-CORS_ALLOW_CREDENTIALS = True
-
-# Specify which headers can be included in requests
-CORS_ALLOW_HEADERS = [
-    'accept',
-    'accept-encoding',
-    'authorization',
-    'content-type',
-    'dnt',
-    'origin',
-    'user-agent',
-    'x-csrftoken',
-    'x-requested-with',
-]
-
-# Specify which HTTP methods are allowed
-CORS_ALLOW_METHODS = [
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT',
-]
-
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -113,6 +75,39 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# CORS settings
+CORS_ALLOW_ALL_ORIGINS = False  # Set to False if you want to specify allowed origins
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+
+ALLOWED_HOSTS = ['152.67.5.32', '127.0.0.1', 'localhost']
 
 ROOT_URLCONF = 'recoversmart.urls'
 
