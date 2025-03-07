@@ -42,8 +42,9 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ['13.53.193.172','127.0.0.1','129.154.238.133','localhost:3000']
+ALLOWED_HOSTS = ['13.53.193.172','127.0.0.1','129.154.238.133']
 
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
 
@@ -67,11 +68,19 @@ INSTALLED_APPS = [
     'attachments',
     'patient_messages',
     'users',
+    'corsheaders'
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # Your Next.js dev server
+    "http://127.0.0.1:3000",  # Sometimes needed
+    "https://your-production-domain.com",  # Add production URL later
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',  # cors 
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',

@@ -6,3 +6,4 @@ djangorestframework-simplejwt
 dotenv
 mysqlclient
 pymysql
+django-cors-headers
