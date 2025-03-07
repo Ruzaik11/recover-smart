@@ -42,7 +42,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ['13.53.193.172','127.0.0.1','129.154.238.133']
+ALLOWED_HOSTS = ['13.53.193.172','127.0.0.1','129.154.238.133','http://localhost:3000']
 
 
 # Application definition
