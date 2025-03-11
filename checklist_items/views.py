@@ -10,12 +10,14 @@ from rest_framework import status
 from .models import ChecklistItem
 import pprint
 from django.db.models import Q
+from attachments.services import FileUploadService
 import sys
+from rest_framework.parsers import MultiPartParser
 # Create your views here.
 class ChecklistsItem(APIView):
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAuthenticated]
-    parser_classes = [JSONParser]   # ✅ Ensure it accepts JSON requests
+    parser_classes = [JSONParser, MultiPartParser]   # ✅ Ensure it accepts JSON and file uploads
 
     def get(self,request,pk):
         checklistitem = ChecklistItem.objects.filter(checklist_id=pk)
@@ -27,6 +29,10 @@ class ChecklistsItem(APIView):
             serializer = ChecklistItemSerializer(data=request.data)
             if serializer.is_valid():
                 serializer.save()
+                if 'file' in request.FILES:
+                    file = request.FILES['file']
+                    service = FileUploadService()  # Create instance
+                    file_path, file_url = service.uploadFile(file, serializer.data['id'], "checklist_items")  # Upload file
                 return Response(serializer.data, status=status.HTTP_201_CREATED)
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         except ChecklistItem.DoesNotExist:

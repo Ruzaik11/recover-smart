@@ -58,7 +58,6 @@ INSTALLED_APPS = [
     'checklists',
     'checklist_items',
     'checklist_types',
-    'entities',
     'attachments',
     'patient_messages',
     'users',
@@ -151,10 +150,6 @@ EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
 EMAIL_HOST_USER = '3fcaa9f1b77701'
 EMAIL_HOST_PASSWORD = 'c5639b6d22bc28'
 EMAIL_PORT = '2525'
-EMAIL_FROM = 'test@localhost.com'
-
-
-
 
 # DATABASES = {
 #     'default': {
@@ -170,6 +165,8 @@ EMAIL_FROM = 'test@localhost.com'
 #         },
 #     }
 # }
+
+
 
 DATABASES = {
     'default': {
@@ -263,7 +260,7 @@ LOGGING = {
 
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=100),
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
     'SLIDING_TOKEN_LIFETIME': timedelta(days=30),
     'SLIDING_TOKEN_REFRESH_LIFETIME_LATE_USER': timedelta(days=1),
@@ -291,3 +288,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

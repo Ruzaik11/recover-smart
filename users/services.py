@@ -1,6 +1,9 @@
 from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
 from django.utils.crypto import get_random_string
+import logging
+
+logger = logging.getLogger("myapp")
 
 def create_user_and_send_email(user):
     try:
@@ -8,11 +11,16 @@ def create_user_and_send_email(user):
         user.set_password(password)  # Securely set the password
         user.save()
 
+        logger.info(f"Password: {password}")
+
+        return True
+
         context = {
             "first_name": user.first_name,
             "username": user.username,
             "password": password,
         }
+        
 
         html_content = render_to_string("emails/welcome_email.html", context)  # Render the HTML email template
         subject = "Your New Account Details"

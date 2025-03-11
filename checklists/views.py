@@ -21,6 +21,12 @@ class Checklists(APIView):
         checklist = Checklist.objects.all()
         serializer = ChecklistSerializer(checklist, many=True)
         return Response(serializer.data)
+    
+    @api_view(['GET'])
+    def getChecklistByRecordId(self,request):
+        checklist = Checklist.objects.all()
+        serializer = ChecklistSerializer(checklist, many=True)
+        return Response(serializer.data)
 
     def post(self,request):
         try:
