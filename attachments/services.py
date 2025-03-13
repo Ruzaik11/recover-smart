@@ -4,6 +4,10 @@ import uuid
 from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 from .models import Attachment
+from django.http import FileResponse, HttpResponse
+from django.utils.encoding import smart_str
+import mimetypes
+
 
 class FileUploadService:
     def __init__(self):
@@ -43,12 +47,49 @@ class FileUploadService:
 
         except Exception as e:
             print(f"Error uploading file: {str(e)}")  # Replace with logging in production
-            return None, None
+            return None
 
-    def deleteFile(self):
-        # Add deletion logic later
-        pass
+    def getSingleFile(self, file_id):
+        try:
+            file = Attachment.objects.get(id=file_id)
+            file_path = os.path.join(settings.MEDIA_ROOT, file.url.lstrip(settings.MEDIA_URL))
+            
+            if os.path.exists(file_path):
+                # Determine the content type based on the file extension
+                content_type, encoding = mimetypes.guess_type(file_path)
+                
+                # For images and most files, use FileResponse
+                if content_type:
+                    response = FileResponse(open(file_path, 'rb'), content_type=content_type)
+                    
+                    # Set the Content-Disposition header to make the browser handle the file appropriately
+                    filename = os.path.basename(file.url)
+                    response['Content-Disposition'] = f'inline; filename="{filename}"'
+                    
+                    # To force download instead of display, use:
+                    # response['Content-Disposition'] = f'attachment; filename="{filename}"'
+                    
+                    return response
+                else:
+                    # Fallback for unknown content types
+                    with open(file_path, 'rb') as f:
+                        response = HttpResponse(f.read())
+                        response['Content-Disposition'] = f'attachment; filename="{os.path.basename(file.url)}"'
+                        return response
+            
+            return HttpResponse("File not found", status=404)
+        
+        except Attachment.DoesNotExist:
+            return HttpResponse("File not found", status=404)
 
-    def getFiles(self):
-        # Add retrieval logic later
-        pass
+    def getFiles(self, record_id, entity):
+        try:
+            files = Attachment.objects.filter(record_id=record_id, entity=entity)
+            return [{
+                "id": file.id,
+                "entity": file.entity,
+                "record_id": file.record_id,
+                "url": file.url
+            } for file in files]
+        except Attachment.DoesNotExist:
+            return None

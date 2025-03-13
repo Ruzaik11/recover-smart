@@ -25,4 +25,5 @@ urlpatterns = [
     path('',include('checklist_items.urls')),
     path('',include('medical_records.urls')),
     path('',include('users.urls')),
+    path('',include('attachments.urls')),
 ]
