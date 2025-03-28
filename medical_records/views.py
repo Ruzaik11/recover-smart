@@ -28,7 +28,7 @@ class MedicalRecordView(APIView):
         try:
             patient = Patient.objects.get(user_id=request.user.id)  # Find the patient for the current user
         except Patient.DoesNotExist:
-            return Response({"error": "Patient matching query does not exist."}, status=HTTP_404_NOT_FOUND)
+            return Response({"error": "Patient matching query does not exist."}, status=status.HTTP_404_NOT_FOUND)
         
         patientSerializer = PatientSerializer(patient)
         medicalRecords = MedicalRecord.objects.filter(patient_id=patient.id)  # Use patient.id for filtering
@@ -36,11 +36,11 @@ class MedicalRecordView(APIView):
         
         return Response(serializer.data)
     
-    def get(self, request, pk):
+    def get(self, request):
         if not request.user.has_perm("medical_record.view_medicalrecord"):
            return Response({"error": "You do not have permission to view this medical record"}, status=403)
         search = request.GET.get('search', '')
-        patients = MedicalRecord.objects.filter(patient_id=pk)
+        patients = MedicalRecord.objects.filter()
         serializer = MedicalRecordSerializer(patients, many=True)
         return Response(serializer.data)
     

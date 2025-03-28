@@ -61,7 +61,8 @@ INSTALLED_APPS = [
     'attachments',
     'patient_messages',
     'users',
-    'corsheaders'
+    'corsheaders',
+    'dashboard',
 ]
 
 MIDDLEWARE = [

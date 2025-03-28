@@ -14,3 +14,33 @@ User created successfully
 Password: 6LcyE533eg
 user id {request.user.id}
 user id None
+Password: zzHK1BZIGN
+Password: wupeBX1eNH
+Password: bUCbvRMJ01
+Password: kdDyIdXfUc
+Password: tJV5nEJEKs
+Password: Rfqxzzxpd4
+Password: EXGRK7s8uq
+Password: C9LQH9gsAj
+Password: E8Z5NY9Q3w
+Password: joZcCW3M8Y
+Password: bDJ1nK2kkH
+Password: FBlnIwF7aH
+Password: gyA5EFNGZZ
+Total Patients: 6
+Total Doctors: 1
+Recovery Completion Rate: 20.0
+Average Recovery Time: 0
+Error calculating recovery time for item {'id': 26, 'checklist': 17, 'type': 1, 'title': 'Book Second Appointment', 'description': '<p>sdsdsd</p>', 'due_date': '2025-03-21', 'task_status': 1, 'complete_date': '2025-03-28'}: unsupported operand type(s) for -: 'str' and 'str'
+Total Patients: 6
+Total Doctors: 1
+Recovery Completion Rate: 20.0
+Average Recovery Time: 0
+Total Patients: 6
+Total Doctors: 1
+Recovery Completion Rate: 20.0
+Average Recovery Time: 7.0
+Total Patients: 6
+Total Doctors: 1
+Recovery Completion Rate: 20.0
+Average Recovery Time: 6.0

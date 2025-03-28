@@ -17,8 +17,10 @@ class AttachmentView(APIView):
 
     @api_view(['GET'])
     def getFile(request):
+        id = file_id = request.GET.get('id')
+        entity = request.GET.get('entity')
         service = FileUploadService()  # Create instance
-        files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+        files = service.getFiles(id,entity)  # Get files
         return Response(files)
 
     def post(self, request):
@@ -31,6 +33,7 @@ class AttachmentView(APIView):
     
     @api_view(['GET'])
     def getSingleFile(request):
+        id = file_id = request.GET.get('file_id')
         service = FileUploadService()
-        file = service.getSingleFile(request.data['file_id'])  # Get file
+        file = service.getSingleFile(id)  # Get file
         return file

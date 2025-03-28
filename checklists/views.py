@@ -18,14 +18,14 @@ class Checklists(APIView):
     parser_classes = [JSONParser]   # ✅ Ensure it accepts JSON requests
 
     def get(self,request):
-        checklist = Checklist.objects.all()
+        checklist = Checklist.objects.all().select_related('record')
         serializer = ChecklistSerializer(checklist, many=True)
         return Response(serializer.data)
     
     @api_view(['GET'])
-    def getChecklistByRecordId(self,request):
-        checklist = Checklist.objects.all()
-        serializer = ChecklistSerializer(checklist, many=True)
+    def getChecklistByRecordId(request, pk):
+        checklist = Checklist.objects.get(pk=pk)
+        serializer = ChecklistSerializer(checklist)
         return Response(serializer.data)
 
     def post(self,request):

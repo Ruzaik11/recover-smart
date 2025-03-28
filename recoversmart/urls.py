@@ -26,4 +26,5 @@ urlpatterns = [
     path('',include('medical_records.urls')),
     path('',include('users.urls')),
     path('',include('attachments.urls')),
+    path('',include('dashboard.urls')),
 ]

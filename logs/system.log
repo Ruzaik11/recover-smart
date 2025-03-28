@@ -2845,3 +2845,2392 @@ Not Found: /api/attachments/file
 "GET /api/attachments/file HTTP/1.1" 404 14
 "GET /api/attachments/file HTTP/1.1" 200 1062185
 "GET /api/attachments/list HTTP/1.1" 200 367
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7884
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"GET /api/patients/ HTTP/1.1" 200 837
+"GET /api/patients/ HTTP/1.1" 200 837
+"GET /api/patients/ HTTP/1.1" 200 837
+"GET /api/patients/ HTTP/1.1" 200 837
+"GET /api/patients/ HTTP/1.1" 200 837
+D:\Fanshawe\capstone\recover_smart\patients\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/patients/1 HTTP/1.1" 200 0
+Internal Server Error: /api/patients/1
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via DELETE, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining DELETE data. Change your form to point to 127.0.0.1:8000/api/patients/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"DELETE /api/patients/1 HTTP/1.1" 500 87410
+"OPTIONS /api/patients/1/ HTTP/1.1" 200 0
+Unauthorized: /api/patients/1/
+"DELETE /api/patients/1/ HTTP/1.1" 401 58
+"GET /api/patients/ HTTP/1.1" 200 837
+"GET /api/patients/ HTTP/1.1" 200 837
+"DELETE /api/patients/1/ HTTP/1.1" 200 2
+Not Found: /api/patients/1/
+"DELETE /api/patients/1/ HTTP/1.1" 404 29
+"OPTIONS /api/patients/2/ HTTP/1.1" 200 0
+"DELETE /api/patients/2/ HTTP/1.1" 200 2
+"GET /api/patients/ HTTP/1.1" 200 561
+"GET /api/patients/ HTTP/1.1" 200 561
+"OPTIONS /api/patients/3/ HTTP/1.1" 200 0
+"DELETE /api/patients/3/ HTTP/1.1" 200 2
+"GET /api/patients/ HTTP/1.1" 200 423
+"GET /api/patients/ HTTP/1.1" 200 423
+"GET /api/patients/ HTTP/1.1" 200 423
+"GET /api/patients/ HTTP/1.1" 200 423
+"OPTIONS /api/patients/4/ HTTP/1.1" 200 0
+"DELETE /api/patients/4/ HTTP/1.1" 200 2
+"GET /api/patients/ HTTP/1.1" 200 281
+"GET /api/patients/ HTTP/1.1" 200 281
+"GET /api/patients/ HTTP/1.1" 200 281
+"GET /api/patients/ HTTP/1.1" 200 281
+"OPTIONS /api/patients/5/ HTTP/1.1" 200 0
+"DELETE /api/patients/5/ HTTP/1.1" 200 2
+"GET /api/patients/ HTTP/1.1" 200 139
+"GET /api/patients/ HTTP/1.1" 200 139
+"POST /api/patients/ HTTP/1.1" 201 147
+"GET /api/patients/ HTTP/1.1" 200 266
+"GET /api/patients/ HTTP/1.1" 200 266
+"GET /api/patients/ HTTP/1.1" 200 266
+"GET /api/patients/ HTTP/1.1" 200 266
+"POST /api/patients/ HTTP/1.1" 201 156
+"GET /api/patients/ HTTP/1.1" 200 402
+"GET /api/patients/ HTTP/1.1" 200 402
+"GET /api/patients/ HTTP/1.1" 200 402
+"GET /api/patients/ HTTP/1.1" 200 402
+"POST /api/patients/ HTTP/1.1" 201 156
+"GET /api/patients/ HTTP/1.1" 200 538
+"GET /api/patients/ HTTP/1.1" 200 538
+"OPTIONS /api/patients/7/ HTTP/1.1" 200 0
+"DELETE /api/patients/7/ HTTP/1.1" 200 2
+Not Found: /api/patients/7/
+"DELETE /api/patients/7/ HTTP/1.1" 404 29
+"GET /api/patients/ HTTP/1.1" 200 411
+"GET /api/patients/ HTTP/1.1" 200 411
+"OPTIONS /api/patients/8/ HTTP/1.1" 200 0
+"DELETE /api/patients/8/ HTTP/1.1" 200 2
+"GET /api/patients/ HTTP/1.1" 200 275
+"GET /api/patients/ HTTP/1.1" 200 275
+"POST /api/patients/ HTTP/1.1" 201 162
+"GET /api/patients/ HTTP/1.1" 200 417
+"GET /api/patients/ HTTP/1.1" 200 417
+"OPTIONS /api/patients/9/ HTTP/1.1" 200 0
+"DELETE /api/patients/9/ HTTP/1.1" 200 2
+"GET /api/patients/ HTTP/1.1" 200 281
+"GET /api/patients/ HTTP/1.1" 200 281
+"OPTIONS /api/patients/10/ HTTP/1.1" 200 0
+"DELETE /api/patients/10/ HTTP/1.1" 200 2
+"GET /api/patients/ HTTP/1.1" 200 139
+"GET /api/patients/ HTTP/1.1" 200 139
+"POST /api/patients/ HTTP/1.1" 201 161
+"GET /api/patients/ HTTP/1.1" 200 280
+"GET /api/patients/ HTTP/1.1" 200 280
+"OPTIONS /api/patients/11/ HTTP/1.1" 200 0
+"DELETE /api/patients/11/ HTTP/1.1" 200 2
+"POST /api/patients/ HTTP/1.1" 201 164
+"GET /api/patients/ HTTP/1.1" 200 283
+"GET /api/patients/ HTTP/1.1" 200 283
+"POST /api/patients/ HTTP/1.1" 201 167
+"POST /api/patients/ HTTP/1.1" 201 166
+"POST /api/patients/ HTTP/1.1" 201 161
+"POST /api/patients/ HTTP/1.1" 201 163
+"GET /api/patients/ HTTP/1.1" 200 860
+"GET /api/patients/ HTTP/1.1" 200 860
+"OPTIONS /api/patients/12/ HTTP/1.1" 200 0
+"DELETE /api/patients/12/ HTTP/1.1" 200 2
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+Watching for file changes with StatReloader
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"GET /api/patients/ HTTP/1.1" 200 716
+"POST /api/patients/ HTTP/1.1" 201 163
+"POST /api/patients/ HTTP/1.1" 201 165
+"GET /api/patients/ HTTP/1.1" 200 1004
+"GET /api/patients/ HTTP/1.1" 200 1004
+"OPTIONS /api/patients/13/ HTTP/1.1" 200 0
+"DELETE /api/patients/13/ HTTP/1.1" 200 2
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/patients/ HTTP/1.1" 200 857
+"GET /api/patients/ HTTP/1.1" 200 857
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/patients/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\patients\views.py", line 37, in get
+    ).order_by('id','dsc')
+      ~~~~~~~~^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1701, in order_by
+    obj.query.add_ordering(*field_names)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\query.py", line 2249, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'dsc' into field. Choices are: email, first_name, id, last_name, medical_records, message, middle_name, mobile, user, user_id
+"GET /api/patients/ HTTP/1.1" 500 125792
+Internal Server Error: /api/patients/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\patients\views.py", line 37, in get
+    ).order_by('id','dsc')
+      ~~~~~~~~^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1701, in order_by
+    obj.query.add_ordering(*field_names)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\query.py", line 2249, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'dsc' into field. Choices are: email, first_name, id, last_name, medical_records, message, middle_name, mobile, user, user_id
+"GET /api/patients/ HTTP/1.1" 500 125792
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/patients/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\patients\views.py", line 37, in get
+    ).order_by('id','desc')
+      ~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1701, in order_by
+    obj.query.add_ordering(*field_names)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\query.py", line 2249, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'desc' into field. Choices are: email, first_name, id, last_name, medical_records, message, middle_name, mobile, user, user_id
+"GET /api/patients/ HTTP/1.1" 500 125808
+Internal Server Error: /api/patients/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\patients\views.py", line 37, in get
+    ).order_by('id','desc')
+      ~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1701, in order_by
+    obj.query.add_ordering(*field_names)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\query.py", line 2249, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'desc' into field. Choices are: email, first_name, id, last_name, medical_records, message, middle_name, mobile, user, user_id
+"GET /api/patients/ HTTP/1.1" 500 125808
+D:\Fanshawe\capstone\recover_smart\patients\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/patients/ HTTP/1.1" 200 857
+"GET /api/patients/ HTTP/1.1" 200 857
+"OPTIONS /api/patients/18/ HTTP/1.1" 200 0
+"DELETE /api/patients/18/ HTTP/1.1" 200 2
+"POST /api/patients/ HTTP/1.1" 201 162
+"GET /api/patients/ HTTP/1.1" 200 854
+"GET /api/patients/ HTTP/1.1" 200 854
+"OPTIONS /api/patients/edit/19/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/edit/19/ HTTP/1.1" 200 0
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/ HTTP/1.1" 200 854
+"GET /api/patients/ HTTP/1.1" 200 854
+"OPTIONS /api/patients/edit/17/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/edit/17/ HTTP/1.1" 200 0
+"GET /api/patients/edit/17/ HTTP/1.1" 200 163
+"GET /api/patients/edit/17/ HTTP/1.1" 200 163
+Method Not Allowed: /api/patients/edit/17/
+"PUT /api/patients/edit/17/ HTTP/1.1" 405 40
+Method Not Allowed: /api/patients/edit/17/
+"PUT /api/patients/edit/17/ HTTP/1.1" 405 40
+Internal Server Error: /api/patients/2
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/patients/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PUT /api/patients/2 HTTP/1.1" 500 86679
+Not Found: /api/patients/2/
+"PUT /api/patients/2/ HTTP/1.1" 404 29
+Not Found: /api/patients/2/
+"PUT /api/patients/2/ HTTP/1.1" 404 29
+Internal Server Error: /api/patients/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Patients.put() missing 1 required positional argument: 'pk'
+"PUT /api/patients/ HTTP/1.1" 500 104781
+"PUT /api/patients/17/ HTTP/1.1" 200 157
+"GET /api/patients/edit/17/ HTTP/1.1" 200 157
+"GET /api/patients/edit/17/ HTTP/1.1" 200 157
+"GET /api/patients/edit/17/ HTTP/1.1" 200 157
+"GET /api/patients/edit/17/ HTTP/1.1" 200 157
+"OPTIONS /api/patients/17/ HTTP/1.1" 200 0
+"PUT /api/patients/17/ HTTP/1.1" 200 159
+"GET /api/patients/edit/17/ HTTP/1.1" 200 159
+"GET /api/patients/edit/17/ HTTP/1.1" 200 159
+Watching for file changes with StatReloader
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+Unauthorized: /api/checklists/
+"GET /api/checklists/ HTTP/1.1" 401 183
+Unauthorized: /api/auth/
+"POST /api/auth/ HTTP/1.1" 401 63
+Unauthorized: /api/auth/
+"POST /api/auth/ HTTP/1.1" 401 63
+"POST /api/auth/ HTTP/1.1" 200 483
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/checklists/ HTTP/1.1" 200 2846
+"GET /api/medical_record/6 HTTP/1.1" 200 3368
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/medical_record/6
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\medical_records\views.py", line 45, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'medical_record_title' was declared on serializer ChecklistSerializer, but has not been included in the 'fields' option.
+"GET /api/medical_record/6 HTTP/1.1" 500 159859
+Internal Server Error: /api/checklists/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 23, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'medical_record_title' was declared on serializer ChecklistSerializer, but has not been included in the 'fields' option.
+"GET /api/checklists/ HTTP/1.1" 500 148633
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/ HTTP/1.1" 200 2846
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 23, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+                                                   ^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1561, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 747, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ~~~~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases or bool(combinator),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 84, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 73, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 279, in get_select
+    related_klass_infos = self.get_related_selections(select, select_mask)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1379, in get_related_selections
+    raise FieldError(
+    ...<6 lines>...
+    )
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'medical_record'. Choices are: record, created_by
+"GET /api/checklists/ HTTP/1.1" 500 160476
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 23, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+                                                   ^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1561, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 747, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ~~~~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases or bool(combinator),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 84, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 73, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 279, in get_select
+    related_klass_infos = self.get_related_selections(select, select_mask)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1379, in get_related_selections
+    raise FieldError(
+    ...<6 lines>...
+    )
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'medical_record'. Choices are: record, created_by
+"GET /api/checklists/ HTTP/1.1" 500 160284
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 23, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+                                                   ^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1561, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 747, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ~~~~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases or bool(combinator),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 84, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 73, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 279, in get_select
+    related_klass_infos = self.get_related_selections(select, select_mask)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1379, in get_related_selections
+    raise FieldError(
+    ...<6 lines>...
+    )
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'medical_record'. Choices are: record, created_by
+"GET /api/checklists/ HTTP/1.1" 500 160284
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 23, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+                                                   ^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1561, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 747, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ~~~~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases or bool(combinator),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 84, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 73, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 279, in get_select
+    related_klass_infos = self.get_related_selections(select, select_mask)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1379, in get_related_selections
+    raise FieldError(
+    ...<6 lines>...
+    )
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'medical_record'. Choices are: record, created_by
+"GET /api/checklists/ HTTP/1.1" 500 160284
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 23, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+                                                   ^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1561, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 747, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ~~~~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases or bool(combinator),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 84, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 73, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 279, in get_select
+    related_klass_infos = self.get_related_selections(select, select_mask)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1379, in get_related_selections
+    raise FieldError(
+    ...<6 lines>...
+    )
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'medical_record'. Choices are: record, created_by
+"GET /api/checklists/ HTTP/1.1" 500 160284
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/ HTTP/1.1" 200 2941
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/ HTTP/1.1" 200 2911
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/ HTTP/1.1" 200 2951
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 23, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `get_patient_full_name` is not valid for model `Checklist` in `checklists.serializers.ChecklistSerializer`.
+"GET /api/checklists/ HTTP/1.1" 500 152990
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 23, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\serializers.py", line 16, in get_patient_full_name
+    return f"{obj.medical_record.patient.first_name} {obj.medical_record.patient.last_name}"
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Checklist' object has no attribute 'medical_record'
+"GET /api/checklists/ HTTP/1.1" 500 135132
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+- Broken pipe from ('127.0.0.1', 59858)
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/ HTTP/1.1" 200 0
+"POST /api/auth/ HTTP/1.1" 200 483
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+Internal Server Error: /api/medical_record
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: MedicalRecordView.get() missing 1 required positional argument: 'pk'
+"GET /api/medical_record HTTP/1.1" 500 98988
+D:\Fanshawe\capstone\recover_smart\medical_records\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\medical_records\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/medical_record HTTP/1.1" 200 3507
+"OPTIONS /api/medical_record HTTP/1.1" 200 0
+"GET /api/medical_record HTTP/1.1" 200 3507
+D:\Fanshawe\capstone\recover_smart\medical_records\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\medical_records\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\medical_records\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\medical_records\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\medical_records\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\medical_records\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/checklists/ HTTP/1.1" 200 2985
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"GET /api/medical_record HTTP/1.1" 200 3581
+"POST /api/checklists/ HTTP/1.1" 201 159
+"OPTIONS /api/checklist/item/ HTTP/1.1" 200 0
+Not Found: /api/checklist/item/
+"POST /api/checklist/item/ HTTP/1.1" 404 7909
+"POST /api/checklists/ HTTP/1.1" 201 159
+"OPTIONS /api/checklists/item/ HTTP/1.1" 200 0
+"POST /api/checklists/item/ HTTP/1.1" 201 133
+"POST /api/checklists/item/ HTTP/1.1" 201 137
+"GET /api/medical_record HTTP/1.1" 200 4172
+"GET /api/checklists/ HTTP/1.1" 200 3576
+"GET /api/checklists/ HTTP/1.1" 200 3576
+"GET /api/medical_record HTTP/1.1" 200 4172
+"GET /api/medical_record HTTP/1.1" 200 4172
+"POST /api/checklists/ HTTP/1.1" 201 166
+"POST /api/checklists/item/ HTTP/1.1" 201 138
+"GET /api/checklists/ HTTP/1.1" 200 3881
+"GET /api/checklists/ HTTP/1.1" 200 3881
+"GET /api/medical_record HTTP/1.1" 200 4477
+"GET /api/medical_record HTTP/1.1" 200 4477
+"GET /api/medical_record HTTP/1.1" 200 4477
+"GET /api/medical_record HTTP/1.1" 200 4477
+"GET /api/medical_record HTTP/1.1" 200 4477
+"GET /api/medical_record HTTP/1.1" 200 4477
+"POST /api/checklists/ HTTP/1.1" 201 159
+Not Found: /api/checklist/item/
+"POST /api/checklist/item/ HTTP/1.1" 404 7909
+"POST /api/checklists/ HTTP/1.1" 201 159
+Not Found: /api/checklist/item/
+"POST /api/checklist/item/ HTTP/1.1" 404 7909
+"GET /api/medical_record HTTP/1.1" 200 4797
+"GET /api/medical_record HTTP/1.1" 200 4797
+"POST /api/checklists/ HTTP/1.1" 201 159
+"OPTIONS /api/checklist_items/ HTTP/1.1" 200 0
+Not Found: /api/checklist_items/
+"POST /api/checklist_items/ HTTP/1.1" 404 7912
+"POST /api/checklists/ HTTP/1.1" 201 159
+"POST /api/checklists/item/ HTTP/1.1" 201 136
+"OPTIONS /api/attachments HTTP/1.1" 200 0
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/medical_record HTTP/1.1" 200 5253
+"GET /api/checklists/ HTTP/1.1" 200 4657
+"GET /api/checklists/ HTTP/1.1" 200 4657
+"GET /api/checklists/ HTTP/1.1" 200 4657
+"GET /api/checklists/ HTTP/1.1" 200 4657
+"GET /api/medical_record HTTP/1.1" 200 5253
+"GET /api/medical_record HTTP/1.1" 200 5253
+"POST /api/checklists/ HTTP/1.1" 201 167
+"POST /api/checklists/item/ HTTP/1.1" 201 137
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/checklists/ HTTP/1.1" 200 4962
+"GET /api/checklists/ HTTP/1.1" 200 4962
+"GET /api/medical_record HTTP/1.1" 200 5558
+"GET /api/medical_record HTTP/1.1" 200 5558
+"POST /api/checklists/ HTTP/1.1" 201 160
+"POST /api/checklists/item/ HTTP/1.1" 201 145
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/checklists/ HTTP/1.1" 200 5268
+"GET /api/checklists/ HTTP/1.1" 200 5268
+"GET /api/medical_record HTTP/1.1" 200 5864
+"GET /api/medical_record HTTP/1.1" 200 5864
+"POST /api/checklists/ HTTP/1.1" 201 160
+Not Found: /api/checklist_items/
+"POST /api/checklist_items/ HTTP/1.1" 404 7912
+"GET /api/checklists/ HTTP/1.1" 200 5429
+"GET /api/checklists/ HTTP/1.1" 200 5429
+"GET /api/checklists/ HTTP/1.1" 200 5429
+"GET /api/checklists/ HTTP/1.1" 200 5429
+"GET /api/medical_record HTTP/1.1" 200 6025
+"GET /api/medical_record HTTP/1.1" 200 6025
+"POST /api/checklists/ HTTP/1.1" 201 167
+"POST /api/checklists/item/ HTTP/1.1" 201 137
+"POST /api/attachments HTTP/1.1" 201 41
+"POST /api/attachments HTTP/1.1" 201 41
+"POST /api/attachments HTTP/1.1" 201 41
+"POST /api/checklists/item/ HTTP/1.1" 201 140
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/medical_record HTTP/1.1" 200 2987
+"GET /api/medical_record HTTP/1.1" 200 2987
+"POST /api/checklists/ HTTP/1.1" 201 167
+"POST /api/checklists/item/ HTTP/1.1" 201 169
+"POST /api/attachments HTTP/1.1" 201 41
+"POST /api/attachments HTTP/1.1" 201 41
+"POST /api/checklists/ HTTP/1.1" 201 160
+"POST /api/checklists/item/ HTTP/1.1" 201 169
+"GET /api/medical_record HTTP/1.1" 200 3654
+"POST /api/checklists/ HTTP/1.1" 201 160
+"POST /api/checklists/item/ HTTP/1.1" 201 170
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/medical_record HTTP/1.1" 200 3985
+"GET /api/medical_record HTTP/1.1" 200 3985
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/item/1 HTTP/1.1" 200 2
+"GET /api/checklists/ HTTP/1.1" 200 3389
+Internal Server Error: /api/checklists/1
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Checklists.get() got an unexpected keyword argument 'pk'
+"GET /api/checklists/1 HTTP/1.1" 500 98854
+Internal Server Error: /api/checklists/record/1
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Checklists.get() got an unexpected keyword argument 'pk'
+"GET /api/checklists/record/1 HTTP/1.1" 500 98959
+Internal Server Error: /api/checklists/record/14
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Checklists.get() got an unexpected keyword argument 'pk'
+"GET /api/checklists/record/14 HTTP/1.1" 500 98980
+D:\Fanshawe\capstone\recover_smart\checklists\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/record/14
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+TypeError: Checklists.getChecklistByRecordId() got an unexpected keyword argument 'pk'
+"GET /api/checklists/record/14 HTTP/1.1" 500 103691
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/record/14
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+TypeError: Checklists.getChecklistByRecordId() missing 1 required positional argument: 'request'
+"GET /api/checklists/record/14 HTTP/1.1" 500 103751
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/record/14 HTTP/1.1" 200 3389
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/record/14
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 29, in getChecklistByRecordId
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+                                                   ^^^^^^^^
+TypeError: 'Checklist' object is not iterable
+"GET /api/checklists/record/14 HTTP/1.1" 500 123835
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/record/14
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 27, in getChecklistByRecordId
+    checklist = Checklist.objects.all(pk=pk)
+TypeError: BaseManager.all() got an unexpected keyword argument 'pk'
+"GET /api/checklists/record/14 HTTP/1.1" 500 107486
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/checklists/record/14
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\checklists\views.py", line 29, in getChecklistByRecordId
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+                                                   ^^^^^^^^
+TypeError: 'Checklist' object is not iterable
+"GET /api/checklists/record/14 HTTP/1.1" 500 123835
+D:\Fanshawe\capstone\recover_smart\checklists\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/record/14 HTTP/1.1" 200 336
+"GET /api/attachments/list HTTP/1.1" 200 125
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/medical_record HTTP/1.1" 200 3985
+"GET /api/medical_record HTTP/1.1" 200 3985
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"OPTIONS /api/checklists/record/1 HTTP/1.1" 200 0
+"OPTIONS /api/checklists/record/1 HTTP/1.1" 200 0
+"GET /api/checklists/record/1 HTTP/1.1" 200 159
+"GET /api/medical_record HTTP/1.1" 200 3985
+"GET /api/checklists/record/1 HTTP/1.1" 200 159
+"GET /api/medical_record HTTP/1.1" 200 3985
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"OPTIONS /api/checklists/record/15 HTTP/1.1" 200 0
+"OPTIONS /api/checklists/record/15 HTTP/1.1" 200 0
+"GET /api/checklists/record/15 HTTP/1.1" 200 329
+"OPTIONS /api/attachments/list HTTP/1.1" 200 0
+Method Not Allowed: /api/attachments/list
+"POST /api/attachments/list HTTP/1.1" 405 41
+"GET /api/checklists/record/15 HTTP/1.1" 200 329
+"GET /api/medical_record HTTP/1.1" 200 3985
+"GET /api/medical_record HTTP/1.1" 200 3985
+Method Not Allowed: /api/attachments/list
+"POST /api/attachments/list HTTP/1.1" 405 41
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 3389
+"GET /api/checklists/ HTTP/1.1" 200 2
+"GET /api/checklists/ HTTP/1.1" 200 2
+"GET /api/medical_record HTTP/1.1" 200 599
+"GET /api/medical_record HTTP/1.1" 200 599
+"POST /api/checklists/ HTTP/1.1" 201 167
+"POST /api/checklists/item/ HTTP/1.1" 201 170
+"POST /api/attachments HTTP/1.1" 201 41
+"POST /api/attachments HTTP/1.1" 201 41
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/checklists/ HTTP/1.1" 200 339
+"GET /api/checklists/ HTTP/1.1" 200 339
+"OPTIONS /api/checklists/record/17 HTTP/1.1" 200 0
+"OPTIONS /api/checklists/record/17 HTTP/1.1" 200 0
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+Method Not Allowed: /api/attachments/list
+"POST /api/attachments/list HTTP/1.1" 405 41
+"GET /api/medical_record HTTP/1.1" 200 936
+Method Not Allowed: /api/attachments/list
+"POST /api/attachments/list HTTP/1.1" 405 41
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+Method Not Allowed: /api/attachments/list
+"POST /api/attachments/list HTTP/1.1" 405 41
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"OPTIONS /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 0
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 109180
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+Method Not Allowed: /api/attachments/list
+"POST /api/attachments/list HTTP/1.1" 405 41
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+Method Not Allowed: /api/attachments/list
+"POST /api/attachments/list HTTP/1.1" 405 41
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+Method Not Allowed: /api/attachments/list
+"POST /api/attachments/list HTTP/1.1" 405 41
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 109180
+"GET /api/checklists/ HTTP/1.1" 200 339
+"GET /api/checklists/ HTTP/1.1" 200 339
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/ HTTP/1.1" 200 339
+"GET /api/checklists/ HTTP/1.1" 200 339
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 109180
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 109180
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 109180
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 109180
+"GET /api/attachments/list HTTP/1.1" 200 2
+Unauthorized: /api/attachments/list
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 401 58
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7884
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 2
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 2
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 2
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 107976
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 107976
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 107976
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/attachments/list
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\attachments\views.py", line 21, in getFile
+    files = service.getFiles(request.data['id'],request.data['entity'])  # Get files
+                             ~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 500 107976
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+Not Found: /uploads/checklist_item/ca484cde-98d8-4c2c-9252-0e67a34f269b.jpg
+"GET /uploads/checklist_item/ca484cde-98d8-4c2c-9252-0e67a34f269b.jpg HTTP/1.1" 404 8040
+"OPTIONS /api/attachments/11 HTTP/1.1" 200 0
+Not Found: /api/attachments/11
+"DELETE /api/attachments/11 HTTP/1.1" 404 7908
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\attachments\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+Not Found: /uploads/checklist_item/ca484cde-98d8-4c2c-9252-0e67a34f269b.jpg
+"GET /uploads/checklist_item/ca484cde-98d8-4c2c-9252-0e67a34f269b.jpg HTTP/1.1" 404 8040
+Not Found: /api/attachments/file
+"GET /api/attachments/file HTTP/1.1" 404 14
+Not Found: /api/attachments/file
+"GET /api/attachments/file?id=25 HTTP/1.1" 404 14
+Not Found: /api/attachments/file
+"GET /api/attachments/file?id=25 HTTP/1.1" 404 14
+Not Found: /api/attachments/file
+"GET /api/attachments/file?id=13 HTTP/1.1" 404 14
+Not Found: /api/attachments/file
+"GET /api/attachments/file?id=13 HTTP/1.1" 404 14
+"GET /api/attachments/file?file_id=13 HTTP/1.1" 200 1181074
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+Unauthorized: /api/attachments/file
+"GET /api/attachments/file?file_id=11 HTTP/1.1" 401 58
+"OPTIONS /api/checklists/17 HTTP/1.1" 200 0
+"PUT /api/checklists/17 HTTP/1.1" 200 337
+"OPTIONS /api/checklists/item/25 HTTP/1.1" 200 0
+"PUT /api/checklists/item/25 HTTP/1.1" 200 170
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+Unauthorized: /api/attachments/file
+"GET /api/attachments/file?file_id=11 HTTP/1.1" 401 58
+"OPTIONS /api/medical_record HTTP/1.1" 200 0
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+Not Found: /api/attachments/11
+"DELETE /api/attachments/11 HTTP/1.1" 404 7908
+Unauthorized: /api/attachments/file
+"GET /api/attachments/file?file_id=11 HTTP/1.1" 401 58
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+Unauthorized: /api/attachments/file
+"GET /api/attachments/file?file_id=11&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxMzI1Mjg4LCJpYXQiOjE3NDI2ODUyODgsImp0aSI6IjJlMzA3YWQ0MzhjYjQ4ZmM4MTlhYzU4ODY4OGM3YzIyIiwidXNlcl9pZCI6MX0.t6VdAxquVmBTRsqJD_zpKNiGSLHHxdSK6ClLjXJzWio HTTP/1.1" 401 58
+Unauthorized: /api/attachments/file
+"GET /api/attachments/file?file_id=11&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxMzI1Mjg4LCJpYXQiOjE3NDI2ODUyODgsImp0aSI6IjJlMzA3YWQ0MzhjYjQ4ZmM4MTlhYzU4ODY4OGM3YzIyIiwidXNlcl9pZCI6MX0.t6VdAxquVmBTRsqJD_zpKNiGSLHHxdSK6ClLjXJzWio HTTP/1.1" 401 58
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"OPTIONS /api/attachments/file?file_id=11 HTTP/1.1" 200 0
+"GET /api/attachments/file?file_id=11 HTTP/1.1" 200 1062185
+"OPTIONS /api/attachments/file?file_id=12 HTTP/1.1" 200 0
+"GET /api/attachments/file?file_id=12 HTTP/1.1" 200 557069
+"OPTIONS /api/attachments/file?file_id=13 HTTP/1.1" 200 0
+"GET /api/attachments/file?file_id=13 HTTP/1.1" 200 1181074
+"PUT /api/checklists/17 HTTP/1.1" 200 337
+"PUT /api/checklists/item/25 HTTP/1.1" 200 170
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/checklists/ HTTP/1.1" 200 339
+"GET /api/checklists/ HTTP/1.1" 200 339
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"OPTIONS /api/patients/edit/19/ HTTP/1.1" 200 0
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/checklists/ HTTP/1.1" 200 339
+"GET /api/checklists/ HTTP/1.1" 200 339
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/medical_record HTTP/1.1" 200 936
+"GET /api/checklists/record/17 HTTP/1.1" 200 337
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"PUT /api/checklists/17 HTTP/1.1" 200 337
+"PUT /api/checklists/item/25 HTTP/1.1" 200 170
+"OPTIONS /api/checklists/item/ HTTP/1.1" 200 0
+"POST /api/checklists/item/ HTTP/1.1" 201 158
+"POST /api/attachments HTTP/1.1" 201 41
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/checklists/ HTTP/1.1" 200 498
+"GET /api/checklists/ HTTP/1.1" 200 498
+"GET /api/checklists/record/17 HTTP/1.1" 200 496
+"GET /api/medical_record HTTP/1.1" 200 1095
+"OPTIONS /api/attachments/list?id=26&entity=checklist_item HTTP/1.1" 200 0
+"GET /api/checklists/record/17 HTTP/1.1" 200 496
+"GET /api/medical_record HTTP/1.1" 200 1095
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/attachments/list?id=26&entity=checklist_item HTTP/1.1" 200 249
+"GET /api/attachments/list?id=26&entity=checklist_item HTTP/1.1" 200 249
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"PUT /api/checklists/17 HTTP/1.1" 200 496
+"PUT /api/checklists/item/25 HTTP/1.1" 200 170
+"OPTIONS /api/checklists/item/26 HTTP/1.1" 200 0
+"PUT /api/checklists/item/26 HTTP/1.1" 200 158
+"GET /api/checklists/ HTTP/1.1" 200 498
+"GET /api/checklists/ HTTP/1.1" 200 498
+"GET /api/medical_record HTTP/1.1" 200 1095
+"GET /api/medical_record HTTP/1.1" 200 1095
+"GET /api/checklists/ HTTP/1.1" 200 498
+"GET /api/checklists/ HTTP/1.1" 200 498
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\checklists\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/record/17 HTTP/1.1" 200 558
+"GET /api/medical_record HTTP/1.1" 200 1157
+"GET /api/checklists/record/17 HTTP/1.1" 200 558
+"GET /api/medical_record HTTP/1.1" 200 1157
+"GET /api/attachments/list?id=26&entity=checklist_item HTTP/1.1" 200 249
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/attachments/list?id=26&entity=checklist_item HTTP/1.1" 200 249
+"GET /api/attachments/list?id=25&entity=checklist_item HTTP/1.1" 200 373
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/medical_record HTTP/1.1" 200 1157
+"GET /api/medical_record HTTP/1.1" 200 1157
+Not Found: /api/v1/app/get-version
+"GET /api/v1/app/get-version HTTP/1.1" 404 7917
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/ HTTP/1.1" 200 0
+"POST /api/auth/ HTTP/1.1" 200 483
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"OPTIONS /api/patients/edit/19/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/edit/19/ HTTP/1.1" 200 0
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"GET /api/checklists/ HTTP/1.1" 200 560
+"GET /api/checklists/ HTTP/1.1" 200 560
+"OPTIONS /api/medical_record HTTP/1.1" 200 0
+"OPTIONS /api/medical_record HTTP/1.1" 200 0
+"GET /api/medical_record HTTP/1.1" 200 1157
+"GET /api/medical_record HTTP/1.1" 200 1157
+"POST /api/checklists/ HTTP/1.1" 201 229
+"OPTIONS /api/checklists/item/ HTTP/1.1" 200 0
+"POST /api/checklists/item/ HTTP/1.1" 201 159
+"OPTIONS /api/attachments HTTP/1.1" 200 0
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/checklists/ HTTP/1.1" 200 949
+"GET /api/checklists/ HTTP/1.1" 200 949
+"OPTIONS /api/checklists/record/18 HTTP/1.1" 200 0
+"OPTIONS /api/checklists/record/18 HTTP/1.1" 200 0
+"GET /api/checklists/record/18 HTTP/1.1" 200 388
+"OPTIONS /api/attachments/list?id=27&entity=checklist_item HTTP/1.1" 200 0
+"GET /api/medical_record HTTP/1.1" 200 1546
+"GET /api/checklists/record/18 HTTP/1.1" 200 388
+"GET /api/attachments/list?id=27&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/attachments/list?id=27&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/medical_record HTTP/1.1" 200 1546
+"OPTIONS /api/attachments/file?file_id=16 HTTP/1.1" 200 0
+"GET /api/attachments/file?file_id=16 HTTP/1.1" 200 557069
+"OPTIONS /api/checklists/18 HTTP/1.1" 200 0
+"PUT /api/checklists/18 HTTP/1.1" 200 388
+"OPTIONS /api/checklists/item/27 HTTP/1.1" 200 0
+"PUT /api/checklists/item/27 HTTP/1.1" 200 159
+"POST /api/checklists/item/ HTTP/1.1" 201 139
+"POST /api/attachments HTTP/1.1" 201 41
+"GET /api/checklists/ HTTP/1.1" 200 1089
+"GET /api/checklists/ HTTP/1.1" 200 1089
+"GET /api/checklists/record/18 HTTP/1.1" 200 528
+"GET /api/medical_record HTTP/1.1" 200 1686
+"OPTIONS /api/attachments/list?id=28&entity=checklist_item HTTP/1.1" 200 0
+"GET /api/checklists/record/18 HTTP/1.1" 200 528
+"GET /api/attachments/list?id=27&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/attachments/list?id=28&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/medical_record HTTP/1.1" 200 1686
+"GET /api/attachments/list?id=27&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/attachments/list?id=28&entity=checklist_item HTTP/1.1" 200 125
+"PUT /api/checklists/18 HTTP/1.1" 200 528
+"PUT /api/checklists/item/27 HTTP/1.1" 200 159
+"OPTIONS /api/checklists/item/28 HTTP/1.1" 200 0
+"PUT /api/checklists/item/28 HTTP/1.1" 200 139
+"POST /api/checklists/item/ HTTP/1.1" 201 139
+"GET /api/checklists/ HTTP/1.1" 200 1229
+"GET /api/checklists/ HTTP/1.1" 200 1229
+"GET /api/checklists/record/18 HTTP/1.1" 200 668
+"GET /api/medical_record HTTP/1.1" 200 1826
+"OPTIONS /api/attachments/list?id=29&entity=checklist_item HTTP/1.1" 200 0
+"GET /api/attachments/list?id=27&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/checklists/record/18 HTTP/1.1" 200 668
+"GET /api/attachments/list?id=29&entity=checklist_item HTTP/1.1" 200 2
+"GET /api/attachments/list?id=28&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/medical_record HTTP/1.1" 200 1826
+"GET /api/attachments/list?id=27&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/attachments/list?id=28&entity=checklist_item HTTP/1.1" 200 125
+"GET /api/attachments/list?id=29&entity=checklist_item HTTP/1.1" 200 2
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/ HTTP/1.1" 200 0
+Unauthorized: /api/auth/
+"POST /api/auth/ HTTP/1.1" 401 63
+Unauthorized: /api/auth/
+"POST /api/auth/ HTTP/1.1" 401 63
+Unauthorized: /api/auth/
+"POST /api/auth/ HTTP/1.1" 401 63
+Unauthorized: /api/auth/
+"POST /api/auth/ HTTP/1.1" 401 63
+"POST /api/auth/ HTTP/1.1" 200 483
+D:\Fanshawe\capstone\recover_smart\recoversmart\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/auth/ HTTP/1.1" 200 483
+Not Found: /api/dashboard
+"GET /api/dashboard HTTP/1.1" 404 7890
+Not Found: /api/dashboard
+"GET /api/dashboard HTTP/1.1" 404 7890
+"POST /api/auth/ HTTP/1.1" 200 483
+Not Found: /api/dashboard
+"GET /api/dashboard HTTP/1.1" 404 7890
+Not Found: /api/dashboard
+"GET /api/dashboard HTTP/1.1" 404 7890
+Not Found: /api/dashboard
+"GET /api/dashboard HTTP/1.1" 404 7890
+D:\Fanshawe\capstone\recover_smart\recoversmart\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/auth/ HTTP/1.1" 200 483
+Internal Server Error: /api/dashboard
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DashboardView.get() takes 1 positional argument but 2 were given
+"GET /api/dashboard HTTP/1.1" 500 104859
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/dashboard
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DashboardView.get() takes 1 positional argument but 2 were given
+"GET /api/dashboard HTTP/1.1" 500 104859
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/dashboard
+"GET /api/dashboard HTTP/1.1" 404 22
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/dashboard
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\dashboard\views.py", line 29, in get
+    patients = PatientSerializer(request.user.patients.all(), many=True).data
+                                 ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'patients'. Did you mean: 'patient'?
+"GET /api/dashboard HTTP/1.1" 500 108720
+Internal Server Error: /api/dashboard
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\dashboard\views.py", line 29, in get
+    patients = PatientSerializer(request.user.patients.all(), many=True).data
+                                 ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'patients'. Did you mean: 'patient'?
+"GET /api/dashboard HTTP/1.1" 500 108720
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/dashboard HTTP/1.1" 200 36
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/dashboard
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\dashboard\views.py", line 47, in get
+    totalRecoveryTime = sum([item['complete_date'] - item['due_date'] for item in listItem])
+                             ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'str'
+"GET /api/dashboard HTTP/1.1" 500 117630
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/dashboard HTTP/1.1" 200 36
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/dashboard
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\dashboard\views.py", line 47, in get
+    totalRecoveryTime = sum([item['complete_date'] - item['due_date'] for item in listItem])
+                             ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'str'
+"GET /api/dashboard HTTP/1.1" 500 117630
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/dashboard HTTP/1.1" 200 83
+"GET /api/dashboard HTTP/1.1" 200 83
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/dashboard
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\dashboard\views.py", line 48, in get
+    if(listItem['task_status'] == 1):
+       ~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+"GET /api/dashboard HTTP/1.1" 500 117975
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
+Watching for file changes with StatReloader

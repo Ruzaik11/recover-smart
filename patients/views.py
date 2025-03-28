@@ -34,7 +34,7 @@ class Patients(APIView):
         patients = Patient.objects.filter(
             Q(first_name__icontains=search)
             | Q(last_name__icontains=search)  # Fixed typo here
-        )
+        ).order_by('-id')
         serializer = PatientSerializer(
             patients, many=True, context={"include_items": False}
         )
@@ -131,3 +131,17 @@ class Patients(APIView):
         # Combine the data into a single response
 
         return Response(patient_data, status=status.HTTP_200_OK)
+    
+
+    def delete(self, request, pk):
+        if not request.user.has_perm("patients.delete_patient"):
+            return Response(
+                {"error": "You do not have permission to delete a patient record"},
+                status=403,
+            )
+        try:
+            patient = Patient.objects.get(pk=pk)
+            patient.delete()
+            return Response({},status=status.HTTP_200_OK)
+        except Patient.DoesNotExist:
+            return Response({"error":'Patient not found'}, status = status.HTTP_404_NOT_FOUND)
