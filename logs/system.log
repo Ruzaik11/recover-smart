@@ -5234,3 +5234,363 @@ Watching for file changes with StatReloader
 "GET /api/dashboard HTTP/1.1" 200 85
 D:\Fanshawe\capstone\recover_smart\dashboard\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8130
+"OPTIONS /api/dashboard HTTP/1.1" 200 0
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"OPTIONS /api/dashboard HTTP/1.1" 200 0
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+Not Found: /api/doctor/
+"GET /api/doctor/ HTTP/1.1" 404 8130
+D:\Fanshawe\capstone\recover_smart\recoversmart\urls.py changed, reloading.
+D:\Fanshawe\capstone\recover_smart\recoversmart\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\recoversmart\settings.py changed, reloading.
+D:\Fanshawe\capstone\recover_smart\recoversmart\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\recoversmart\settings.py changed, reloading.
+D:\Fanshawe\capstone\recover_smart\recoversmart\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\recoversmart\settings.py changed, reloading.
+D:\Fanshawe\capstone\recover_smart\recoversmart\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\doctors\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Fanshawe\capstone\recover_smart\doctors\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/doctor/ HTTP/1.1" 200 56
+Internal Server Error: /api/patients/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\patients\views.py", line 76, in post
+    "username": request.data["username"],
+                ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'username'
+"POST /api/patients/ HTTP/1.1" 500 108451
+Bad Request: /api/doctor/
+"POST /api/doctor/ HTTP/1.1" 400 82
+"POST /api/doctor/ HTTP/1.1" 201 51
+"GET /api/doctor/ HTTP/1.1" 200 108
+Internal Server Error: /api/doctor/2
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/doctor/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PUT /api/doctor/2 HTTP/1.1" 500 86694
+"PUT /api/doctor/2/ HTTP/1.1" 200 49
+Not Found: /api/patients/edit/2/
+"GET /api/patients/edit/2/ HTTP/1.1" 404 29
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 49
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8897
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"OPTIONS /api/doctor/ HTTP/1.1" 200 0
+"OPTIONS /api/doctor/ HTTP/1.1" 200 0
+"GET /api/doctor/ HTTP/1.1" 200 106
+"GET /api/doctor/ HTTP/1.1" 200 106
+"GET /api/doctor/ HTTP/1.1" 200 106
+"GET /api/doctor/ HTTP/1.1" 200 106
+"GET /api/doctor/ HTTP/1.1" 200 106
+"GET /api/doctor/ HTTP/1.1" 200 106
+"OPTIONS /api/patients/edit/2/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/edit/2/ HTTP/1.1" 200 0
+Not Found: /api/patients/edit/2/
+"GET /api/patients/edit/2/ HTTP/1.1" 404 29
+Not Found: /api/patients/edit/2/
+"GET /api/patients/edit/2/ HTTP/1.1" 404 29
+Not Found: /api/patients/edit/2/
+"GET /api/patients/edit/2/ HTTP/1.1" 404 29
+"OPTIONS /api/doctor/edit/2/ HTTP/1.1" 200 0
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 49
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 49
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 49
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 49
+"OPTIONS /api/doctor/2/ HTTP/1.1" 200 0
+"PUT /api/doctor/2/ HTTP/1.1" 200 51
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 51
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 51
+"PUT /api/doctor/2/ HTTP/1.1" 200 51
+"GET /api/doctor/ HTTP/1.1" 200 108
+"GET /api/doctor/ HTTP/1.1" 200 108
+"OPTIONS /api/doctor/edit/1/ HTTP/1.1" 200 0
+"OPTIONS /api/doctor/edit/1/ HTTP/1.1" 200 0
+"GET /api/doctor/edit/1/ HTTP/1.1" 200 54
+"GET /api/doctor/edit/1/ HTTP/1.1" 200 54
+"OPTIONS /api/doctor/1/ HTTP/1.1" 200 0
+"PUT /api/doctor/1/ HTTP/1.1" 200 56
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 51
+"GET /api/doctor/edit/2/ HTTP/1.1" 200 51
+"PUT /api/doctor/2/ HTTP/1.1" 200 51
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"OPTIONS /api/doctor/ HTTP/1.1" 200 0
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"OPTIONS /api/doctors/ HTTP/1.1" 200 0
+Not Found: /api/doctors/
+"POST /api/doctors/ HTTP/1.1" 404 8901
+Not Found: /api/doctors/
+"POST /api/doctors/ HTTP/1.1" 404 8901
+"POST /api/doctor/ HTTP/1.1" 201 59
+"GET /api/doctor/ HTTP/1.1" 200 170
+"GET /api/doctor/ HTTP/1.1" 200 170
+"OPTIONS /api/doctor/edit/3/ HTTP/1.1" 200 0
+"OPTIONS /api/doctor/edit/3/ HTTP/1.1" 200 0
+"GET /api/doctor/edit/3/ HTTP/1.1" 200 59
+"GET /api/doctor/edit/3/ HTTP/1.1" 200 59
+"GET /api/doctor/ HTTP/1.1" 200 170
+"GET /api/doctor/ HTTP/1.1" 200 170
+"OPTIONS /api/doctors/3/ HTTP/1.1" 200 0
+Not Found: /api/doctors/3/
+"DELETE /api/doctors/3/ HTTP/1.1" 404 8909
+Not Found: /api/doctors/3/
+"DELETE /api/doctors/3/ HTTP/1.1" 404 8909
+"GET /api/doctor/ HTTP/1.1" 200 170
+"GET /api/doctor/ HTTP/1.1" 200 170
+"OPTIONS /api/doctor/3/ HTTP/1.1" 200 0
+"DELETE /api/doctor/3/ HTTP/1.1" 200 2
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"OPTIONS /api/dashboard HTTP/1.1" 200 0
+"OPTIONS /api/dashboard HTTP/1.1" 200 0
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"OPTIONS /api/dashboard HTTP/1.1" 200 0
+"OPTIONS /api/dashboard HTTP/1.1" 200 0
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8897
+"OPTIONS /api/auth/ HTTP/1.1" 200 0
+"POST /api/auth/ HTTP/1.1" 200 483
+"OPTIONS /api/dashboard HTTP/1.1" 200 0
+"OPTIONS /api/dashboard HTTP/1.1" 200 0
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/ HTTP/1.1" 200 0
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"OPTIONS /api/patients/19/ HTTP/1.1" 200 0
+"OPTIONS /api/patients/19/ HTTP/1.1" 200 0
+Internal Server Error: /api/patients/19/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Patients.get() got an unexpected keyword argument 'pk'
+"GET /api/patients/19/ HTTP/1.1" 500 106146
+Internal Server Error: /api/patients/19/
+Traceback (most recent call last):
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Fanshawe\capstone\recover_smart\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Patients.get() got an unexpected keyword argument 'pk'
+"GET /api/patients/19/ HTTP/1.1" 500 106146
+"OPTIONS /api/patients/edit/19/ HTTP/1.1" 200 0
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/edit/19/ HTTP/1.1" 200 162
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/patients/ HTTP/1.1" 200 850
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"OPTIONS /api/checklists/ HTTP/1.1" 200 0
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"OPTIONS /api/doctor/ HTTP/1.1" 200 0
+"OPTIONS /api/doctor/ HTTP/1.1" 200 0
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/doctor/ HTTP/1.1" 200 110
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/checklists/ HTTP/1.1" 200 1237
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/dashboard HTTP/1.1" 200 85
+"OPTIONS /api/auth/user/ HTTP/1.1" 200 0
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/auth/user/ HTTP/1.1" 200 134
+"GET /api/dashboard HTTP/1.1" 200 85
+"GET /api/auth/user/ HTTP/1.1" 200 134
