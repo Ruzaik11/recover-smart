@@ -1,67 +1,60 @@
-# Recover Smart – Post-Surgery Recovery System
+# Recover Smart – Backend API
 
-**Capstone Project — Fanshawe College (2023–2024)**  
-A full-stack web platform designed to support patients and clinicians throughout the post-surgical recovery process. Built using Python (Django), React, PostgreSQL, and Docker.
-
----
-
-## 🌟 Overview
-
-Recover Smart helps track patient recovery progress through structured check-ins, symptom monitoring, and secure communication with clinicians. Designed with accessibility, modularity, and data privacy in mind.
+**Capstone Project – Fanshawe College (2023–2024)**  
+Recover Smart is a Django-based backend system designed to support post-surgery recovery tracking for patients and healthcare professionals.
 
 ---
 
-## 🔧 Tech Stack
+## 🧠 Overview
 
-**Frontend:**
-- React
-- TypeScript
-- Tailwind CSS
-
-**Backend:**
-- Python
-- Django
-- Django REST Framework
-- PostgreSQL
-
-**DevOps & Tools:**
-- Docker
-- Git & GitHub
-- VS Code
-- Agile Methodology (Scrum)
+This backend service provides secure API endpoints to manage patients, clinicians, recovery plans, and symptom tracking. Built with Django and Django REST Framework, it enables structured, data-driven recovery support.
 
 ---
 
-## 🔐 Features
+## ⚙️ Tech Stack
 
-- 🔒 **Authentication & Authorization**  
-  Secure login with patient and clinician roles.
+- **Python 3.10+**
+- **Django 4.x**
+- **Django REST Framework**
+- **PostgreSQL**
+- **Docker & Docker Compose**
 
-- 📋 **Recovery Plan Workflow**  
-  Custom checklists and daily surveys for patient progress tracking.
+---
 
-- 📊 **Dashboard for Clinicians**  
-  Monitor recovery trends, receive alerts, and access patient history.
+## 🔐 Key Features
 
-- 📨 **Notifications & Alerts**  
-  Automated alerts for symptoms requiring attention.
+- **User Authentication & Roles**  
+  Supports login for patients and clinicians with JWT-based authentication.
 
-- 📁 **RESTful API**  
-  JSON-based API endpoints for frontend-backend communication.
+- **Patient Management**  
+  Create, update, and assign recovery plans to patients.
+
+- **Daily Check-ins**  
+  Endpoints for submitting recovery surveys (e.g., pain levels, mobility).
+
+- **Clinician Dashboard APIs**  
+  Access aggregated data and recent check-in logs.
+
+- **Secure REST API**  
+  Built using DRF with token-based permissions and input validation.
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Docker + Docker Compose
-- Python 3.10+
-- Node.js & npm
+- Git
 
 ### Setup Instructions
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/recover-smart.git
-cd recover-smart
-# Backend API available at: http://localhost:8000/api/
+git clone https://github.com/yourusername/recover-smart-backend.git
+cd recover-smart-backend
+
+# Build and run the containers
+docker-compose up --build
+
+# API will be available at http://localhost:8000/api/
