@@ -16,7 +16,7 @@ This backend service provides secure API endpoints to manage patients, clinician
 - **Python 3.10+**
 - **Django 4.x**
 - **Django REST Framework**
-- **PostgreSQL**
+- **MySQL**
 - **Docker & Docker Compose**
 
 ---
