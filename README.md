@@ -64,9 +64,4 @@ Recover Smart helps track patient recovery progress through structured check-ins
 # Clone the repository
 git clone https://github.com/yourusername/recover-smart.git
 cd recover-smart
-
-# Start development containers
-docker-compose up --build
-
-# Frontend available at: http://localhost:3000
 # Backend API available at: http://localhost:8000/api/
